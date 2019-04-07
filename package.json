@@ -1,0 +1,30 @@
+{
+  "name": "goo-dict-scraper",
+  "version": "0.1.0",
+  "description": "\"A module to scrape dictionary.goo.ne.jp for English and Japanese words.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Alkhwarizm/goo-dict-scraper.git"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "goo",
+    "dictionary"
+  ],
+  "author": "Alkhwarizm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alkhwarizm/goo-dict-scraper/issues"
+  },
+  "homepage": "https://github.com/Alkhwarizm/goo-dict-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
